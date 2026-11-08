@@ -1,0 +1,9 @@
+{
+	"gamerule.weakPoints": "Weak points: hit the glowing mark to take a whole vein or tree",
+	"gamerule.weakPointsVeinLimit": "Weak points: most ore blocks in one vein",
+	"gamerule.weakPointsTreeLimit": "Weak points: most logs in one tree",
+	"weakpoints.toast.title": "Weak point",
+	"weakpoints.toast.ore": "Hit the glowing mark %s times: the whole vein comes out",
+	"weakpoints.toast.tree": "Hit the glowing mark %s times: the whole tree comes down",
+	"modmenu.descriptionTranslation.weakpoints": "Rust-style gathering: click an ore or a tree trunk, hit the glowing point a few times, and the whole vein or tree comes out."
+}

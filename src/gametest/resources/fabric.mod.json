@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "weakpoints-gametest",
+	"version": "1.0.0",
+	"name": "Weak Points game tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"ru.weakpoints.gametest.GatherGameTests"
+		]
+	},
+	"depends": {
+		"weakpoints": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"gamerule.weakPoints": "Слабые места: удары по светящейся метке забирают всю жилу или дерево",
+	"gamerule.weakPointsVeinLimit": "Слабые места: больше всего блоков руды в одной жиле",
+	"gamerule.weakPointsTreeLimit": "Слабые места: больше всего брёвен в одном дереве",
+	"weakpoints.toast.title": "Слабое место",
+	"weakpoints.toast.ore": "Попади по метке %s раз, и выйдет вся жила",
+	"weakpoints.toast.tree": "Попади по метке %s раз, и упадёт всё дерево",
+	"modmenu.descriptionTranslation.weakpoints": "Добыча как в Rust: ударь по руде или стволу, попади несколько раз по светящейся точке, и выйдет вся жила или дерево целиком."
+}

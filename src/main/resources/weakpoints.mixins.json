@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "ru.weakpoints.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BlockItemMixin",
+		"LevelChunkMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "weakpoints",
+	"version": "${version}",
+	"name": "Weak Points",
+	"description": "Rust-style gathering: click an ore or a tree trunk, hit the glowing point a few times, and the whole vein or tree comes out.",
+	"authors": [
+		"Igor"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/weak-points",
+		"sources": "https://github.com/ReportJungle1/weakpoints",
+		"issues": "https://github.com/ReportJungle1/weakpoints/issues"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/weakpoints/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.weakpoints.WeakPointsMod"
+		],
+		"client": [
+			"ru.weakpoints.client.WeakPointsClient"
+		]
+	},
+	"mixins": [
+		"weakpoints.mixins.json",
+		{
+			"config": "weakpoints.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21 <1.21.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
